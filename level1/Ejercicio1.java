@@ -1,5 +1,7 @@
-import java.util.Scanner ;
-class Ejercicio1 {
+
+import java.util.*;
+
+public class Ejercicio1 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("ingrese su nombre: "); 
@@ -10,6 +12,6 @@ class Ejercicio1 {
         System.out.println("Hello, " + nombre + " " + apellido); 
         
         scan.close();
-    }
+    };
     
-}
+};
