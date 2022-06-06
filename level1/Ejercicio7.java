@@ -1,8 +1,9 @@
 import java.util.Scanner;
+
 public class Ejercicio7 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.println("Ingese la palabra a convertir a MAYUSCULAS");
+        System.out.println("Ingese la palabra a convertir en mayúscula: ");
         String palabra = scan.nextLine();
         int tamaño = palabra.length();
         char[] caracteres = palabra.toCharArray();

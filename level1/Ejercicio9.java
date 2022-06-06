@@ -4,11 +4,11 @@ public class Ejercicio9 {
         Scanner scan = new Scanner(System.in);
         System.out.println("Ingrese un texto, por favor:");
         String texto = scan.nextLine();
-        System.out.println("Escriba el caracter a buscar:");
-        String c = scan.nextLine();
-        char caracter = c.charAt(0);
+        System.out.println("Escriba la letra a buscar:");
+        String letra = scan.nextLine();
+        char caracter = letra.charAt(0);
         int cont = contarCaracteres(texto, caracter);
-        System.out.printf("El caracter < %s > se repite %s veces", caracter, cont);
+        System.out.printf("la letra < %s > se repite %s veces", caracter, cont);
         System.out.println("");
         scan.close();
     }
