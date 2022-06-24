@@ -7,12 +7,11 @@ public class Ejercicio6 {
 
         HashSet<Employee> empleado = new HashSet<>();
         HashMap<Integer, Float> salario = new HashMap<>();
-
-        empleado.add(new Employee("Miguel Martinez", 54642124, 6, 350));
+        empleado.add(new Employee("Santiago Ramirez", 94537816, 8, 550));
+        empleado.add(new Employee("Miguel Ramirez", 54642124, 6, 350));
+        empleado.add(new Employee("Maria Aquino", 87645210, 4, 600));
         empleado.add(new Employee("Juan Gonzalez", 24687368, 7, 345));
-        empleado.add(new Employee("Joselo Melgar", 94537816, 8, 550));
-        empleado.add(new Employee("Valeria VillaBlanca", 87645210, 4, 600));
-        empleado.add(new Employee("Rut Rauchbach", 798546310, 5, 320));
+        empleado.add(new Employee("Nelsy Acuña", 798546310, 5, 320));
 
         System.out.println("Calculo del salario de los empleados");
 

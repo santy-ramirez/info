@@ -8,7 +8,7 @@ public class Ejercicio9 {
         String c = scan.nextLine();
         char caracter = c.charAt(0);
         int cont = contarCaracteres(texto, caracter);
-        System.out.printf("El caracter < %s > se repite %s veces", caracter, cont);
+        System.out.printf("El caracter < %s > se repite %s vez/ces", caracter, cont);
         System.out.println("");
         scan.close();
     }

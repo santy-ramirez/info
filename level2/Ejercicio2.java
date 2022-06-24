@@ -1,4 +1,4 @@
-package level2;
+
 import java.util.ArrayList;
 
 public class Ejercicio2 {
@@ -12,10 +12,10 @@ public class Ejercicio2 {
       numeroEntero.add(6);
 
      for (int i = 0; i < numeroEntero.size(); i++){
-         System.out.println("numero en la lista: "+ numeroEntero.get(i));
+         System.out.println("número en la lista: "+ numeroEntero.get(i));
      }
 
-     System.out.println("numero en la lista actual: "+ numeroEntero.size());
+     System.out.println("número en la lista actual: "+ numeroEntero.size());
      numeroEntero.remove(0);
      numeroEntero.remove(4);
      System.out.println("numero en la lista, despues de sacar algunos numeros: "+ numeroEntero.size());

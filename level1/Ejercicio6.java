@@ -3,7 +3,7 @@ public class Ejercicio6 {
     public static void main(String[] args) {
         int resultado = 0;
         Scanner scan = new Scanner(System.in);
-        System.out.println("Ingrese el numero que que desea saber la potencia");
+        System.out.println("Ingrese el número  que desea saber la potencia");
         int numero1 = scan.nextInt();
         System.out.println("Ingrese el numero de la potencia");
         int numero2 = scan.nextInt();
