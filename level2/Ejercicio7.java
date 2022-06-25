@@ -27,6 +27,8 @@ public class Ejercicio7 {
         for (int j = 0; j < sumaTotal.size(); j++) {
             System.out.println(sumaTotal.get(j));
 
+
         }
+        numIngresado.close();
     }  
 }

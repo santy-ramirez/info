@@ -1,4 +1,4 @@
-package level2;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,7 +20,6 @@ public class Ejercicio5 {
         valorPorHora.add(320);
 
         for (int i = 0; i < horasTrabajadas.size(); i++) {
-            //aquí tomo las horas trabajadas y se lo paso en multiplicacion al valor por hora
             int hs = horasTrabajadas.get(i) * valorPorHora.get(i);
             totales.add(hs);
         }

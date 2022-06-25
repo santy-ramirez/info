@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class ejercicio8 {
+public class Ejercicio8 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Ingese su Nombre y Apellido");

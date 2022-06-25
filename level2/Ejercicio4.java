@@ -1,4 +1,4 @@
-package level2;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -6,16 +6,16 @@ public class Ejercicio4 {
     public static void main(String[] args) {
         List<String> estudiante = new ArrayList<>();
         estudiante.add("Juan");
-        estudiante.add("Osvaldo");
+        estudiante.add("Pedro");
         estudiante.add("Juana");
+        estudiante.add("Maria");
+        estudiante.add("Ramona");
+        estudiante.add("Nelsi");
+        estudiante.add("Lorena");
         estudiante.add("Sebastian");
         estudiante.add("Lourdes");
         estudiante.add("Aldana");
-        estudiante.add("Marcelo");
-        estudiante.add("Maria");
-        estudiante.add("Macarena");
-        estudiante.add("Braian");
-        estudiante.add("Lorena");
+        estudiante.add("Eliseo");
         estudiante.add("Jose");
 
         List<String> clase1 = estudiante.subList(0, 4);
